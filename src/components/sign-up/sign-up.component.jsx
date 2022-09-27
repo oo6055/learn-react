@@ -42,8 +42,8 @@ class SignUp extends React.Component {
     }
 
     handleChange = (event) => {
+        
         const {name, value} = event.target;
-
         this.setState({[name]: value})
     }
 
@@ -58,14 +58,14 @@ class SignUp extends React.Component {
                         type = 'text'
                         name= 'displayName'
                         value = {displayName}
-                        hadleChange= {this.handleChange}
+                        handleChange= {this.handleChange}
                         label='Display Name'
                         required></FormInput>
                     <FormInput
                         type = 'email'
                         name= 'email'
                         value = {email}
-                        hadleChange= {this.handleChange}
+                        handleChange= {this.handleChange}
                         label='email'
                         required></FormInput>
                     
@@ -73,15 +73,15 @@ class SignUp extends React.Component {
                         type = 'password'
                         name= 'password'
                         value = {password}
-                        hadleChange= {this.handleChange}
+                        handleChange= {this.handleChange}
                         label='password'
                         required></FormInput>
 
                         <FormInput
                         type = 'password'
-                        name= 'confirmpassword'
+                        name= 'confirmPassword'
                         value = {confirmPassword}
-                        hadleChange= {this.handleChange}
+                        handleChange= {this.handleChange}
                         label='confirm password'
                         required></FormInput>
                     
