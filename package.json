@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "firebase": "^9.10.0",
+    "node": "14.15.1",
     "lodash.memoize": "^4.1.2",
     "node-sass": "^4.9",
     "react": "^16.8.6",
